@@ -1,7 +1,8 @@
 #! /usr/bin/python
 #
-# A simple python sniffer by zepvn
+# A simple python sniffer by zepvn. You need to ARP poison your nerwork first.
 # Protocol supported: YMSG, HTTP(POST) and FTP
+# 
 #
 
 import pcap
