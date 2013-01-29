@@ -1,0 +1,1 @@
+busybox ifconfig wlan0 hw ether $(busybox cat /proc/interrupts | busybox md5sum  |  busybox grep -o "............" | busybox grep -m 1 "")
